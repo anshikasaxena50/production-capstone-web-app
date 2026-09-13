@@ -75,7 +75,7 @@ async function loadProducts() {
     errorMessage.hidden = true;
 
     try {
-        const response = await fetch(API_URL);
+        const response = await fetch("https://fakestoreapi.com/products");
 
         if (!response.ok) {
             throw new Error("API request failed");
