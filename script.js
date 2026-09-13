@@ -15,7 +15,7 @@ const userStatus = document.getElementById("userStatus");
 
 const cartCount = document.getElementById("cartCount");
 const cartItems = document.getElementById("cartItems");
-const clearCartBtn = document.getElementById("clearCart");
+const clearCartBtn = document.getElementById("clearCartBtn");
 
 const newProductName = document.getElementById("newProductName");
 const newProductPrice = document.getElementById("newProductPrice");
